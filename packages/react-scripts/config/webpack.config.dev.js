@@ -190,7 +190,6 @@ module.exports = {
           paths.appSrc,
           /node_modules[\\\/]react-native-.*/
         ],
-        include: paths.appSrc,
         loader: require.resolve('babel-loader'),
         options: {
           // @remove-on-eject-begin
